@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1" />
+    <meta name = "description" content =  "NBA, NHL, Machine learning"/>
+    <title>The Real Maple Jordan | Projects</title>
+    <title></title>
+    <link href = "css/bootstrap.min.css"  rel = "stylesheet">
+  </head>
+  <body>
+    <div style = "width:50%; margin:auto;">
+      <nav class = "navbar navbar-expand-lg navbar-light bg-light" >
+        <img src = "img/nady_masterpiece.jpg", style = "width:13%" />
+        <div class = "collapse navbar-collapse" id = "navbarSupportedContent">
+          <ul class = "navbar-nav ml-auto mr-5" >
+            <li class = "nav-item">
+              <a class = "nav-link text-dark" href = "index.html">Home</a>
+            </li>
+            <li class = "nav-item">
+              <a class = "nav-link text-dark" href = "about.html">About</a>
+            </li>
+            <li class = "nav-item">
+              <a class = "nav-link text-dark" href = "basketball.html">Basketball</a>
+            </li>
+            <li class = "nav-item">
+              <a class = "nav-link" href = "dashboards.html", style = "color:#DA3842; font-weight:bold;" >Dashboards</a>
+            </li>
+            <li class = "nav-item">
+              <a class = "nav-link text-dark" href = "projects.html">Other Projects</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- main body section -->
+      <div class = "row mt-sm-4 mt-md-0" style = "margin:auto;">
+        <div class = "col-sm-12 col-md-12">
+          <h1>Dashboards</h1>
+          <h2>NOTE: Currently some of the dashboards uses the free Heroku servers. As a result they can take 10 - 25 seconds to load</h2>
+            <a href = "https://app-corona727.herokuapp.com/" style = 'text-decoration:none; color:gray; font-size:20px'>
+              <h3>
+                COVID - 19 Tracker
+              </h3>
+            </a>
+              <p>
+                As the title describes, an interactive COVID dashboard which tracks cases, deaths for each country. First page shows stats for each country while the second page shows global conditions, with an adjustable map bubble map.
+              </p>
+              <h3>Sources</h3>
+              <p>
+                The data used comes from OWID (Our World in Data). The source can be found <a href = "https://github.com/owid/covid-19-data/tree/master/public/data">here</a>.
+              </p>
+              <div>
+                <img src = "img/covid_page1.jpg" style = "width:47%; padding-right:5px;"/>
+                <img src = "img/covid_page2.jpg" style = 'width:47%; padding-left:5px;'/>
+              </div>
+              <br />
+            <a href ="https://globalwarming123.herokuapp.com/" style = "text-decoration:none; color:gray; font-size:20px">
+              <h3>Global Warming, Rising Sea Levels, Hurricanes</h3>
+            </a>
+            <p>
+              This dashboard examines the relationships between time, and various climate change related data such as hurricane strength, arctic ice and sea levels, and temperature. Includes two small animations and is displayed in a clean, clear and simple format.
+            </p>
+            <h3>Sources  </h3>
+            <p>
+              Data comes from a wide range of data. They are the United States Environmental Protection Agency for hurricane data, Berkeley Earth for temperature information for each country in each year, WorldData.info for continental data (note that they did not have weather stations in the South Americas), NASA for arctic ice levels and sea levels. Links to them are as followed: <a href = "https://www.epa.gov/climate-indicators/climate-change-indicators-tropical-cyclone-activity">USEPA</a>, <a href = "https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data">Berkeley Earth/Kaggle Competition</a>,  <a href = "https://www.worlddata.info/global-warming.php">WorldData.info</a>, <a href ="https://climate.nasa.gov/vital-signs/sea-level/">NASA</a>
+            </p>
+            <img src = 'img/global_warming.jpg' style = 'width:70%;'/>
+            <br />
+            <br />
+            <a href = "https://carbonemission.herokuapp.com/", style = "text-decoration:none; color:gray;">
+              <h3>Carbon Emissions</h3>
+            </a>
+            <p>
+              Meant to show a different colour scheem than what I generally do (dark theme or white). The contrast between colours probably work best in a more interactive display such as <a href = "https://dash-gallery.plotly.host/dash-oil-gas-ternary/">this one</a>. The dash example has one side where there is an input and the other side with the output.
+            </p>
+            <h3>Sources</h3>
+            <p>
+              Data source can be found <a href = "https://stats.oecd.org/Index.aspx?DataSetCode=AIR_GHG">here</a>.
+            </p>
+            <img src = "img/carbon_emission.jpg" style = "width:70%;" />
+            <br />
+            <br />
+            <h1>Inactive</h1>
+              <p class = "leading">
+                Twitter, Sentimental Analysis
+              </p>
+              <p>
+                My first uses of Dash and consists of interacting with Twitter using the Twitter API, Tweepy. This application looks at the tweets and performs natural language processing techniques on them to find positve or negative sentiments. Application also examines statistics such as most recent, most common trends, etc. My application was inspired by this <a href = "https://www.earthdatascience.org/courses/use-data-open-source-python/intro-to-apis/analyze-tweet-sentiment-in-python/">article</a>.
+              </p>
+              <img src = "img/twitter_page1.jpg" style = "width:47%; padding-right:5px;"/>
+              <img src = "img/twitter_page2.jpg" style = "width:47%; padding-left:5px;"/>
+        </div>
+      </div>
+      <br />
+      </div>
+    </div>
+    <script src = "js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- -->
